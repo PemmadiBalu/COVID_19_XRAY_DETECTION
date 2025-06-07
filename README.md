@@ -2,9 +2,9 @@
 This project uses deep learning techniques to detect COVID-19 from chest X-ray images. It leverages convolutional neural networks (CNNs) to classify images into three categories: COVID-19, Normal, and Pneumonia.
 
 📁 Project Structure
-bash
-Copy
-Edit
+- bash
+- Copy
+- Edit
 COVID19_CHEST_XRAY_DETECTION/
 ├── dataset/                # X-ray images (COVID, Normal, Pneumonia)
 ├── models/                 # Saved trained models
@@ -16,25 +16,17 @@ To develop a deep learning model that can automatically detect COVID-19 infectio
 
 📊 Dataset
 Source: Kaggle
-
 Categories:
-
-COVID-19 Positive
-
+      COVID-19 Positive
 Normal
-
 Viral Pneumonia
 
 🛠️ Technologies Used
-Python
-
-TensorFlow / Keras
-
-OpenCV
-
-NumPy, Pandas
-
-Matplotlib, Seaborn
+1.Python
+2.TensorFlow / Keras
+3.OpenCV
+4.NumPy, Pandas
+5.Matplotlib, Seaborn
 
 🧠 Model Architecture
 CNN (Convolutional Neural Network)
@@ -58,34 +50,33 @@ Accuracy: 96%
 🚀 How to Run
 Clone the repository:
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/COVID19_CHEST_XRAY_DETECTION.git
-cd COVID19_CHEST_XRAY_DETECTION
-Install dependencies:
+- bash
+- Copy
+- Edit
+- git clone https://github.com/your-username/COVID19_CHEST_XRAY_DETECTION.git
+- cd COVID19_CHEST_XRAY_DETECTION
+- Install dependencies:
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Run the notebook:
+- bash
+- Copy
+- Edit
+- pip install -r requirements.txt
+- Run the notebook:
 
-bash
-Copy
-Edit
-jupyter notebook COVID19_CHEST_XRAY_DETECTION.ipynb
+- bash
+- Copy
+- Edit
+- jupyter notebook COVID19_CHEST_XRAY_DETECTION.ipynb
+- 
 📌 Future Work
-Improve model accuracy using data augmentation and transfer learning
-
-Deploy the model using Flask or Streamlit
-
-Integrate a web interface for uploading X-ray images
+ @. Improve model accuracy using data augmentation and transfer learning
+ @. Deploy the model using Flask or Streamlit
+ @. Integrate a web interface for uploading X-ray images
 
 🧑‍💻 Author
-Balu Pemmadi
-B.Tech in Computer Science (AI & Data Science)
-Passionate about AI, deep learning, and real-world healthcare applications
+- Balu Pemmadi
+- B.Tech in Computer Science (AI & Data Science)
+- Passionate about AI, deep learning, and real-world healthcare applications
 
 📄 License
-This project is open-source under the MIT License.
+- This project is open-source under the MIT License.
