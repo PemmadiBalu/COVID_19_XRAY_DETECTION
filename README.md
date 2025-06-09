@@ -2,9 +2,6 @@
 This project uses deep learning techniques to detect COVID-19 from chest X-ray images. It leverages convolutional neural networks (CNNs) to classify images into three categories: COVID-19, Normal, and Pneumonia.
 
 📁 Project Structure
-- bash
-- Copy
-- Edit
 COVID19_CHEST_XRAY_DETECTION/
 ├── dataset/                # X-ray images (COVID, Normal, Pneumonia)
 ├── models/                 # Saved trained models
@@ -49,23 +46,12 @@ Accuracy: 96%
 
 🚀 How to Run
 Clone the repository:
-
-- bash
-- Copy
-- Edit
 - git clone https://github.com/your-username/COVID19_CHEST_XRAY_DETECTION.git
 - cd COVID19_CHEST_XRAY_DETECTION
+- 
 - Install dependencies:
-
-- bash
-- Copy
-- Edit
 - pip install -r requirements.txt
 - Run the notebook:
-
-- bash
-- Copy
-- Edit
 - jupyter notebook COVID19_CHEST_XRAY_DETECTION.ipynb
 - 
 📌 Future Work
